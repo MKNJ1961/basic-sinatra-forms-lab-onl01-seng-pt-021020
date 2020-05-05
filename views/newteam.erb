@@ -6,15 +6,30 @@
  </head>
  <body>
    <form method="POST" action="/team">
-     <h1>Create a Basketball Team!</h1>
-     <p>Team Name: <input type="text" name="name"></p>
-     <p>Coach: <input type="text" name="coach"></p>
-     <p>Point Guard: <input type="text" name="pg"></p>
-     <p>Shooting Guard: <input type="text" name="sg"></p>
-     <p>Small Forward: <input type="text" name="sf"></p>
-     <p>Power Foward: <input type="text" name="pf"></p>
-     <p>Center: <input type="text" name="c"></p>
-     <input type="submit" name="submit" value="submit" id="submit" />
+     <ul>
+       <li><label for="name">Team name:</label>
+       <input name="name" type="text" id="name"></li>
+
+       <li><label for="coach">Coach:</label>
+       <input name="coach" type="text" id="coach"></li>
+
+       <li><label for="pg">Point Guard:</label>
+       <input name="pg" type="text" id="pg"></li>
+
+       <li><label for="sg">Shooting Guard:</label>
+       <input name="sg" type="text" id="sg"></li>
+
+       <li><label for="pf">Power Forward:</label>
+       <input name="pf" type="text" id="pf"></li>
+
+       <li><label for="sf">Small Forward:</label>
+       <input name="sf" type="text" id="sf"></li>
+
+       <li><label for="c">Center:</label>
+       <input name="c" type="text" id="c"></li>
+     </ul>
+
+    <input id="submit" type="submit">
    </form>
 
  </body>
